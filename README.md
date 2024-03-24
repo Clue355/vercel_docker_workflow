@@ -7,6 +7,9 @@
 -   [Login to Docker Hub](#login-to-docker-hub)
 -   [Start/Stop Project](#commands-to-start-the-project)
 -   [Useful Commands](#useful-docker-commands)
+-   [Vercel](#vercel)
+-   [Vercel Tour](#vercel-tour)
+-   [Vercel CLI](#installing-the-vercel-cli)
 
 ## Make sure Docker Compose is installed
 
@@ -101,3 +104,16 @@ Build the image:
 ```
 docker build -f Dockerfile.dev -t ghcr.io/letsgettechnical/name:tag .
 ```
+
+# Vercel
+
+Vercel makes it easy for developers to deploy the front end facing of their applications
+
+## Vercel Tour
+
+Here's a tour of a sample workflow: https://vercel.com/product-tour?i=0
+
+## Installing The Vercel CLI
+
+Through the CLI you can configure settings for your project. Read more about the CLI here:
+https://vercel.com/docs/cli#installing-vercel-cli
